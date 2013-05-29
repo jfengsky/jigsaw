@@ -1,0 +1,11 @@
+/**
+ * Description: ui
+ * Author: jiangfeng (jfengsky@gmail.com)
+ * Update: 2013-05-27 11:18
+ */
+
+.header{
+  background:-moz-linear-gradient(top, red, rgba(0, 0, 255, 0.5));  
+  background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0.5)));  
+  background:-o-linear-gradient(top, red, rgba(0, 0, 255, 0.5)); 
+}
