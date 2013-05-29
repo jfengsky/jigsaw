@@ -3,9 +3,63 @@
  * Author: jiangfeng (jfengsky@gmail.com)
  * Update: 2013-05-27 11:18
  */
+@import "compass";
+
+body{
+  position:relative;
+  -webkit-transition: left .2s ease;
+}
 
 .header{
-  background:-moz-linear-gradient(top, red, rgba(0, 0, 255, 0.5));  
-  background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0.5)));  
-  background:-o-linear-gradient(top, red, rgba(0, 0, 255, 0.5)); 
+  font-weight:bold;
+  width:100%;
+  @include background-image(linear-gradient(#3c3c3c, #111));
+
+  a{
+    height:18px;
+    padding:.55em 11px .5em;
+    // padding-left:30px;
+    border:1px solid #111;
+    background-color:#333;
+    text-shadow:0 1px 0 #111; 
+    text-decoration:none;
+    color:#fff;
+    box-shadow:0 1px 0 rgba(255, 255, 255, .3);
+    border-radius:1em;
+    text-align:center;
+    display:inline-block;
+    white-space:nowrap;
+    overflow:hidden;
+    @include background-image(linear-gradient(#444, #2d2d2d));
+    &:first-child{
+      position:absolute;
+      top:5px;
+      left:5px;
+    }
+    &:last-child{
+      position:absolute;
+      top:5px;
+      right:5px;
+    }
+    &:hover{
+      border:1px solid #000;
+      background-color:#444;
+      @include background-image(linear-gradient(#555, #383838));
+    }
+    &:active{
+      @include background-image(linear-gradient(#202020, #2c2c2c));
+    }
+  }
+
+  h1{
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    margin:.8em auto .8em;
+    color:#fff;
+    white-space:nowrap;
+    font-size:1.2em
+  }
+
+  
 }
