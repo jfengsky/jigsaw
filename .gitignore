@@ -1,8 +1,10 @@
 tmp/*
-node_modules/*
 config/database.php
 app/tmp/*
 app/config/database.php
 !empty
 .DS_Store
+.idea
+node_modules/
+*.iml
 .sass-cache
