@@ -4,7 +4,17 @@
  *
  */
 /* line 9, ../sass/style.sass */
-.banner {
+.main {
   width: 480px;
+  margin: auto;
+  height: 800px;
+  border: 1px solid #cccccc;
+}
+/* line 14, ../sass/style.sass */
+.main .banner {
   height: 180px;
+}
+/* line 17, ../sass/style.sass */
+.main nav {
+  height: 60px;
 }
