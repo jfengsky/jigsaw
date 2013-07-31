@@ -1,8 +1,10 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
+/*
+ * User: jfengsky@gmail.com
+ * Date: 13-7-31 16:47
+ *
+ */
+/* line 9, ../sass/style.sass */
+.banner {
+  width: 480px;
+  height: 180px;
 }
