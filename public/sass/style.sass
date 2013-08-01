@@ -12,7 +12,72 @@
   height: $h800
   @include tempbord
   .banner
+    width: $w480
     height: 180px
+    overflow: hidden
+    position: relative
+    .piclist
+      width: $w480 * 3
+      height: 180px
+      li
+        height: 180px
+        width: $w480
+        float: left
+    .switch
+      position: absolute
+      top: 160px
+      left: 220px
+      li
+        float: left
+        height: 8px
+        width: 8px
+        border-radius: 8px
+        background-color: #fff
+        opacity: 0.8
+        line-height: 36px
+        overflow: hidden
+        margin-right: 8px
+        cursor: pointer
+        &.cur
+          background-color: #00B7FF
 
   nav
     height: 60px
+    border-bottom: 1px solid #edebeb
+    box-shadow: 1px 1px 5px #e6e4e4
+    li
+      float: left
+      position: relative
+      border-right: 1px solid #edebeb
+      width: 159px
+      height: 60px
+      text-align: center
+      color: #333
+      &:last-child
+        border: none
+      b
+        font-size: 16px
+        font-weight: 700
+        display: block
+        line-height: 30px
+        font-family: 'arial'
+      i
+        width: 0px
+        height: 0px
+        border-style: solid
+        border-width: 12px 12px 0 12px
+        border-color: #fff transparent transparent transparent
+        position: absolute
+        top: 60px
+        left: 66px
+        display: none
+      &.cur
+        color: $blu
+        i
+          display: block
+
+  .list
+    margin-top: 2px
+    background: #f6f7f8
+    width: $w480
+    height: 556px

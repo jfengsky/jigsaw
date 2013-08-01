@@ -4,25 +4,34 @@ block content
   section.main
     // 顶部轮播焦点图 可不显示
     #top.banner
-      ul
+      ul.piclist
         li
-          img(src="")
+          img(src="http://localhost/imagesize/img.php?size=480x180")
         li
-          img(src="")
+          img(src="http://localhost/imagesize/img.php?size=480x180")
         li
-          img(src="")
+          img(src="http://localhost/imagesize/img.php?size=480x180")
 
-      ul
-        li 1
+      ul.switch
+        li.cur 1
         li 2
         li 3
 
     // 主导航 tab切换效果
     nav
       ul
-        li new
-        li finish
-        li rank
+        li.cur
+          b 100
+          span new
+          i
+        li
+          b 10
+          span finish
+          i
+        li
+          b 99
+          span rank
+          i
 
     // 图片列表
     .list
