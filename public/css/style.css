@@ -65,7 +65,7 @@
   width: 159px;
   height: 60px;
   text-align: center;
-  color: #333333;
+  color: #666666;
 }
 /* line 56, ../sass/style.sass */
 .main nav li:last-child {
@@ -73,13 +73,17 @@
 }
 /* line 58, ../sass/style.sass */
 .main nav li b {
-  font-size: 16px;
+  font-size: 1.6em;
   font-weight: 700;
   display: block;
-  line-height: 30px;
+  line-height: 140%;
   font-family: "arial";
 }
 /* line 64, ../sass/style.sass */
+.main nav li span {
+  font-size: 1em;
+}
+/* line 66, ../sass/style.sass */
 .main nav li i {
   width: 0px;
   height: 0px;
@@ -91,18 +95,27 @@
   left: 66px;
   display: none;
 }
-/* line 74, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 .main nav li.cur {
   color: #4bb5c1;
 }
-/* line 76, ../sass/style.sass */
+/* line 78, ../sass/style.sass */
 .main nav li.cur i {
   display: block;
 }
-/* line 79, ../sass/style.sass */
+/* line 81, ../sass/style.sass */
 .main .list {
   margin-top: 2px;
   background: #f6f7f8;
   width: 480px;
   height: 556px;
+}
+/* line 86, ../sass/style.sass */
+.main .list li {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 10px #edebeb;
+  margin: 20px;
+  float: left;
 }
