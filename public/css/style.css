@@ -109,8 +109,14 @@
   background: #f6f7f8;
   width: 480px;
   height: 556px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-/* line 86, ../sass/style.sass */
+/* line 88, ../sass/style.sass */
+.main .list ul {
+  width: 480px;
+}
+/* line 90, ../sass/style.sass */
 .main .list li {
   height: 200px;
   width: 200px;
