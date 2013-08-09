@@ -1,0 +1,91 @@
+/*
+ * User: jfengsky@gmail.com
+ * Date: 13-7-31 16:47
+ *
+ */
+.main {
+  width: 480px;
+  margin: auto;
+  height: 800px;
+  border: 1px solid #cccccc; }
+  .main .banner {
+    width: 480px;
+    height: 180px;
+    overflow: hidden;
+    position: relative; }
+    .main .banner .piclist {
+      width: 1440px;
+      height: 180px; }
+      .main .banner .piclist li {
+        height: 180px;
+        width: 480px;
+        float: left; }
+    .main .banner .switch {
+      position: absolute;
+      top: 160px;
+      left: 220px; }
+      .main .banner .switch li {
+        float: left;
+        height: 8px;
+        width: 8px;
+        border-radius: 8px;
+        background-color: white;
+        opacity: 0.8;
+        line-height: 36px;
+        overflow: hidden;
+        margin-right: 8px;
+        cursor: pointer; }
+        .main .banner .switch li.cur {
+          background-color: #00b7ff; }
+  .main nav {
+    height: 60px;
+    border-bottom: 1px solid #edebeb;
+    box-shadow: 1px 1px 5px #e6e4e4; }
+    .main nav li {
+      float: left;
+      position: relative;
+      border-right: 1px solid #edebeb;
+      width: 159px;
+      height: 60px;
+      text-align: center;
+      color: #666666; }
+      .main nav li:last-child {
+        border: none; }
+      .main nav li b {
+        font-size: 1.6em;
+        font-weight: 700;
+        display: block;
+        line-height: 140%;
+        font-family: "arial"; }
+      .main nav li span {
+        font-size: 1em; }
+      .main nav li i {
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 12px 12px 0 12px;
+        border-color: white transparent transparent transparent;
+        position: absolute;
+        top: 60px;
+        left: 66px;
+        display: none; }
+      .main nav li.cur {
+        color: #4bb5c1; }
+        .main nav li.cur i {
+          display: block; }
+  .main .list {
+    margin-top: 2px;
+    background: #f6f7f8;
+    width: 480px;
+    height: 556px;
+    overflow-x: hidden;
+    overflow-y: auto; }
+    .main .list ul {
+      width: 480px; }
+    .main .list li {
+      height: 200px;
+      width: 200px;
+      background-color: white;
+      box-shadow: 0 0 10px #edebeb;
+      margin: 20px;
+      float: left; }
