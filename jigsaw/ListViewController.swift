@@ -8,12 +8,16 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let tempLabel = UILabel()
+        tempLabel.text = "label"
+        tempLabel.frame = CGRectMake(10, 10, 200, 200)
+        tempLabel.backgroundColor = UIColor.grayColor()
+        self.view.addSubview(tempLabel)
+        
     }
 
     override func didReceiveMemoryWarning() {

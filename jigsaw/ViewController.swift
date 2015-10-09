@@ -110,9 +110,14 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     
     func buttonClick(button: UIButton) {
-        let sb = UIStoryboard(name: "Main", bundle: nil)
-        let second = sb.instantiateViewControllerWithIdentifier("second")
-        self.presentViewController(second, animated: true, completion: nil)
+        
+        let listView = ListViewController()
+        
+//        self.parentViewController(listView, animated: true, completion: nil)
+        
+//        let sb = UIStoryboard(name: "Main", bundle: nil)
+//        let second = sb.instantiateViewControllerWithIdentifier("second")
+        self.presentViewController(listView, animated: true, completion: nil)
     }
     
     
