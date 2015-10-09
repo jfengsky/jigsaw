@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1F35B1768F82823B7D6796EFA6962517357297B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1F35B1768F82823B7D6796EFA6962517357297B" : 0,
+    "D1391AD8C5E0F79A4E363C35B099DD51768EF07F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3CE32AB0-B484-4E32-BF2F-EB15C625808A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1F35B1768F82823B7D6796EFA6962517357297B" : "jigsaw\/",
+    "D1391AD8C5E0F79A4E363C35B099DD51768EF07F" : "IOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "jigsaw",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jigsaw.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jfengsky\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1391AD8C5E0F79A4E363C35B099DD51768EF07F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jfengsky\/jigsaw.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1F35B1768F82823B7D6796EFA6962517357297B"
+    }
+  ]
+}
